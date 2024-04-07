@@ -1,0 +1,32 @@
+.search-container {
+    padding: 2rem;
+
+    .dropdown-menu {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    .search-title {
+        color: #bc896a;
+        font-size: 1.2rem;
+    }
+
+    .search-option {
+        margin-bottom: 1rem;
+    }
+
+    .btn-wrapper {
+        display: flex;
+        width: 100%;
+
+        button {
+            margin-right: 70%;
+        }
+    }
+
+    .smart-search-box {
+        input {
+            height: 3rem;
+        }
+    }
+}

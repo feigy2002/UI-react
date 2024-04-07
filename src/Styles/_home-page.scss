@@ -1,0 +1,94 @@
+@import url(https://dl.dropboxusercontent.com/u/15746367/fonts/carmela/style.css);
+@import url(https:/fonts.googleapis.com/earlyaccess/alefhebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+.home-page {
+    background: black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg);
+    animation: stars 205s linear alternate;
+    height: 80%;
+
+    .logo {
+        color: white;
+        text-align: center;
+        font-size: 150px;
+        font-family: 'Open Sans Hebrew Condensed', serif;
+        text-shadow: 2px 2px gray;
+        /* Add a shadow effect */
+    }
+}
+
+#box {
+    background: url(https://i.imgur.com/bYSnuNE.jpg?1);
+    background-size: cover;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 520px;
+    height: 520px;
+    animation: movimiento 5s linear 0s infinite;
+    box-shadow: 0 0 25px RGBA(255, 255, 255, 0.10),
+        -8px -8px 15px #000 inset,
+        2px 2px 25px #000 inset,
+        -45px -45px 25px RGBA(0, 0, 0, 0.5) inset,
+        25px 25px 45px RGBA(0, 0, 0, 0.45) inset;
+    margin: 0em auto;
+    transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+}
+
+@keyframes movimiento {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 355px 0
+    }
+}
+
+@keyframes stars {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 0 100%
+    }
+}
+
+.about {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.brand {
+    color: #bc896a;
+    padding-left: 1em;
+}
+
+.nav-link :active {
+    border: 0.5px solid #bc896a;
+}
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: right;
+
+    .terms-content {
+        margin-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+@import url(./Styles/_search-event.scss);
+@import url(./Styles/_meeting-calendar.scss);
+@import url(./Styles/_events-list.scss);
+@import url(./Styles/_event-talk.scss);
+@import url(./Styles/_home-page.scss);
+@import url(./Styles/_maps-history.scss);
+@import url(./Styles/_filter.scss);
+@import url(./Styles/_popup.scss);
+
+
+
+.app {
+    direction: rtl;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    color: white;
+}
+
+.me-auto {
+    /* // margin: unset; */
+    margin-right: unset !important;
+    margin-left: auto;
+}

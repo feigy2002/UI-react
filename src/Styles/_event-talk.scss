@@ -1,0 +1,22 @@
+.person-details {
+    display: flex;
+
+    .details-center {
+        margin: auto;
+        padding-top: 1em;
+    }
+
+    .bigger-text {
+        color: #bc896a;
+        font-size: xx-large
+    }
+
+    .bigger-note {
+        font-size: xx-large;
+        margin-right: 1px;
+    }
+
+    .label-details {
+        font-size: x-large;
+    }
+}
